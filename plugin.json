@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "buyr",
+  "displayName": "Buyr",
+  "description": "Name your price on the Buyr store. Search negotiable products, submit an offer, and check out on the store.",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "homepage": "https://www.buyr.com",
+  "repository": "https://github.com/Buyr-Technologies/buyr-consumer-plugin",
+  "keywords": ["buyr", "name-your-price"],
+  "countries": ["US"],
+  "support": "https://www.buyr.com/pages/contact",
+  "legal": {
+    "privacyPolicy": "https://www.buyr.com/policies/privacy-policy",
+    "termsOfService": "https://www.buyr.com/policies/terms-of-service"
+  },
+  "mcpServers": "./mcp.json"
+}

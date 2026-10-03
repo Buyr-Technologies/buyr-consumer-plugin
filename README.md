@@ -4,7 +4,9 @@ Set your price on the world's best brands. Unlock deals automatically with AI-po
 
 The World's Best Brands at the Prices You Set.
 
-This is the Buyr shopper Agent Plugin. It talks to `https://shopapp.buyr.com/mcp/consumer` and shops [https://www.buyr.com](https://www.buyr.com).
+This repository is the **consumer shopping plugin** only. Shoppers set their price on the Buyr store. The MCP URL is `https://shopapp.buyr.com/mcp/consumer`. The store is [https://www.buyr.com](https://www.buyr.com).
+
+A later Buyr MCP for a merchant to manage their own store is a different product. That listing will use a different repository and a separate Cursor marketplace submission. Do not treat this repo as the merchant admin plugin.
 
 ## Brand
 

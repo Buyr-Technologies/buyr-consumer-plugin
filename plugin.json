@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "buyr",
   "version": "1.1.0",
-  "description": "Set your price on the world's best brands. Unlock deals automatically with AI-powered matching. Search the Buyr store at https://www.buyr.com, name a price, and check out on the store when the offer is accepted.",
+  "description": "Consumer shopping plugin only. Set your price on the world's best brands at https://www.buyr.com. Unlock deals automatically with AI-powered matching. A merchant store-management MCP is a separate product and a separate marketplace submission.",
   "author": {
     "name": "Buyr",
     "url": "https://www.buyr.com"

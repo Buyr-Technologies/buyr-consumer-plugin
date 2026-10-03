@@ -1,18 +1,37 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "buyr",
-  "displayName": "Buyr",
-  "description": "Name your price on the Buyr store. Search negotiable products, submit an offer, and check out on the store.",
-  "version": "1.0.0",
-  "license": "UNLICENSED",
+  "version": "1.1.0",
+  "description": "Set your price on the world's best brands. Unlock deals automatically with AI-powered matching. Search the Buyr store at https://www.buyr.com, name a price, and check out on the store when the offer is accepted.",
+  "author": {
+    "name": "Buyr",
+    "url": "https://www.buyr.com"
+  },
   "homepage": "https://www.buyr.com",
   "repository": "https://github.com/Buyr-Technologies/buyr-consumer-plugin",
-  "keywords": ["buyr", "name-your-price"],
-  "countries": ["US"],
-  "support": "https://www.buyr.com/pages/contact",
-  "legal": {
-    "privacyPolicy": "https://www.buyr.com/policies/privacy-policy",
-    "termsOfService": "https://www.buyr.com/policies/terms-of-service"
-  },
-  "mcpServers": "./mcp.json"
+  "license": "UNLICENSED",
+  "keywords": [
+    "Buyr",
+    "Set your price",
+    "The World's Best Brands at the Prices You Set",
+    "Unlock deals",
+    "AI-powered matching",
+    "name your price"
+  ],
+  "extensions": {
+    "com.buyr.brand": {
+      "displayName": "Buyr",
+      "tagline": "Set your price on the world's best brands.",
+      "oneLiner": "Set your price on the world's best brands. Unlock deals automatically with AI-powered matching.",
+      "hero": "The World's Best Brands at the Prices You Set.",
+      "logo": "./assets/logo.svg",
+      "icon": "./assets/buyr-icon-512.png",
+      "wordmark": "./assets/buyr-wordmark.svg",
+      "color": "#26BF59",
+      "homepage": "https://www.buyr.com",
+      "support": "https://www.buyr.com/pages/contact",
+      "privacyPolicy": "https://www.buyr.com/policies/privacy-policy",
+      "termsOfService": "https://www.buyr.com/policies/terms-of-service"
+    }
+  }
 }
